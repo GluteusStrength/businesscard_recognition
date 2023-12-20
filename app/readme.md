@@ -23,19 +23,21 @@
 
 1. **앱의 메인 화면을 담당합니다.**
    - 명함 촬영이나 불러오기 등의 기능을 제공합니다.
-   ![Main Activity](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533_03.jpg)
+   ![Main Activity 1](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533_03.jpg)
+   ![Main Activity 2](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533_02.jpg)
 
 ### SendActivity
 
 2. **촬영한 명함을 서버에 전송하는 기능을 담당합니다.**
    - 서버로부터 인식 결과를 받아오는 등의 기능을 포함합니다.
-   ![Send Activity](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533_02.jpg)
+   ![Send Activity](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533_01.jpg)
 
 ### ResultActivity
 
 3. **명함 인식 결과를 표시하는 화면을 담당합니다.**
    - 인식된 이름, 번호, 직책 등을 사용자에게 제공합니다.
-   ![Result Activity](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533_01.jpg)
+   ![Result Activity](https://github.com/Seeing-AI/businesscard_recognition/blob/main/app/img/KakaoTalk_20231213_000500533.jpg)
+
 
 ## 사용 방법
 
