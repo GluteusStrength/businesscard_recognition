@@ -1,6 +1,6 @@
 # Business Card Recognition
 
-This directory contains code for business card recognition, including object detection model training, data augmentation and text recognition.
+이 Directory는 명함 인식을 위한 Detection, Recognition 구현 코드가 포함되어 있습니다.
 
 ## 파일 구조
 
@@ -51,6 +51,9 @@ YOLOv5의 `train.py`를 사용하여 학습을 시작합니다.
 - --batch 배치 사이즈
 - --epochs 총 학습 에폭
 
+#### YOLO 학습 결과 (test셋 mAP)
+![final](https://github.com/Seeing-AI/businesscard_recognition/assets/48168432/3c4daa78-f90e-4fa2-8d10-3b3b6bd6464b)
+
 ### 2. Data Augmentation.ipynb
 
 #### 2.1. 증강 기법
@@ -80,9 +83,12 @@ EigenCAM을 통해 activation map을 확인하는 파일입니다.
 - model은 torch.hub.load를 통해 불러옵니다. 이때 학습 시켰던 model의 체크포인트 파일을 활용하고자 한다면 `path = your checkpoint file path`
 - target_layers의 경우 model의 특정 layer를 지정하는 부분입니다.
 - 그 외에는 image_url에 확인하고자 하는 이미지 파일의 경로를 설정해주고 나머지 부분은 실행하면 됩니다.
+- ![gradcam](https://github.com/Seeing-AI/businesscard_recognition/assets/48168432/df230a69-05e8-426a-8924-be63280cc337)
+
  
-### 3. Recognition.ipynb
+## Recognition
+### Recognition.ipynb
 
-#### 3.1. 객체 검출 및 텍스트 인식
-
-YOLO 검출과 텍스트 인식을 결합합니다.
+- YOLO 검출 후 텍스트 인식을 진행합니다(Process)
+  - 해당 파일의 process는 구체적으로 python detect.py ~ 부분의 셀을 실행하여 우선 detection을 수행한 후
+  - OCR의 Text Recognition 부분이 실행되게 됩니다.
