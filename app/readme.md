@@ -40,9 +40,9 @@
 
 ## 사용 방법
 
-1. Android Studio를 열고 해당 프로젝트를 불러옵니다.
+1. Android Studio를 열고 새로운 프로젝트를 시작합니다.
 
-2. `MainActivity.java`, `SendActivity.java`, `ResultActivity.java` 파일을 확인하여 각각의 기능에 대한 코드를 이해합니다.
+2. `MainActivity.java`, `SendActivity.java`, `ResultActivity.java`로 java파일을 교체합니다
 
 3. `res/layout` 폴더의 `activity_main.xml`, `activity_send.xml`, `activity_result.xml` 파일을 확인하여 UI 디자인을 파악합니다.
 
