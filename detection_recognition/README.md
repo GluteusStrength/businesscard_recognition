@@ -76,7 +76,7 @@ YOLOv5의 `train.py`를 사용하여 학습을 시작합니다.
 - `Rotation`
   - data_augmentation 함수 안에 들어있다.
 <br> ※ data_augmentation 함수 셀 아래의 반복문 셀에서 tqdm(range(n))에서 n을 조정하여 증강 기법을 다양하게 사용할 수 있습니다. 그리고 이 때, data_augmentation에서도 `if num == k` 부분을 적당히 조정할 필요가 있을 수도 있습니다.
-### 3.2. EigenCAM_YOLOv5.ipynb[추가 작업]
+### 3. EigenCAM_YOLOv5.ipynb[추가 작업]
 
 EigenCAM을 통해 activation map을 확인하는 파일입니다. 
 <br> 주의할 점
