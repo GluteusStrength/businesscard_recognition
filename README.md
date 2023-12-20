@@ -86,7 +86,7 @@
 </p>
 
 <p align="center">
-  <img src="images/LabelTable.png" alt="Table1: 3 label" width="45%" height="45%">
+  <img src="images/Labeltable.png" alt="Table1: 3 label" width="45%" height="45%">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
