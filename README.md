@@ -78,7 +78,7 @@
  직접 촬영한 명함 1500장의 Image와 명함에서 이름, 번호, 직책의 Bounding Box를 직접 라벨링한 Text파일로 Raw dataset을 구성했습니다.  명함의 디자인이 다양한 만큼 최대한 다양한 명함을 수집하여 데이터셋을 구성하였고, 이름, 번호, 직책의 수를 최대한 균등하게 맞추어 구성하였습니다.
 
 <p align="center">
-  <img src="images/businesscard.jpg" alt="businesscard.jpg" display="inline-block" width="60%" height="50%">
+  <img src="images/businesscard.png" alt="businesscard" display="inline-block" width="60%" height="50%">
 </p>
 
  
@@ -130,6 +130,10 @@
     <li>명도, 채도, 밝기 조정 - Raw data의 명도, 채도, 밝기를 랜덤하게 조정하여 Augmentation을 진행했습니다. 이 방식을 통해 다양한 밝기의 환경, 촬영 과정에서의 빛번짐 등 Detection 과정에서 다양한 시각적 noise를 방지하였습니다.</li>
   </ol>
   
+<p align="center">
+  <img src="images/rotation.png" alt="rotation" width="45%" height="45%">
+  <img src="images/bright.png" alt="bright" width="45%" height="45%">
+</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -139,7 +143,7 @@
   Detection 모델의 정확도는 아래 표와 같습니다. 각각의 Label에 대한 mAP값을 계산하였습니다. 
  
 <p align="Center">
-  <img src="images/model_test.png" alt="result" width="45%" height="45%">
+  <img src="images/result.png" alt="result" width="45%" height="45%">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
