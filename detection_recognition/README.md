@@ -28,18 +28,18 @@ ultralytics의 yolov5를 clone한다. 다음의 공식사이트에서 clone을 �
 #### 1.3. 바운딩 박스 확인
 
 학습 전에 `draw_bbox` 함수를 사용하여 올바른 바운딩 박스 형성을 확인합니다.
-<br> filenames_image: 이미지 파일 경로를 저장. 적절하게 이미지가 저장된 파일의 경로를 설정하면 됩니다.
-<br> filenames_label: label의 저장 경로가 저장됩니다. 앞서 이미지와 라벨 정보의 이름을 동일하게 취하게 되면 쉽게 뒤의 파일의 확장자명만 바꿔서 진행할 수 있게 구성했습니다. 
-<br> classes: label 정보의 클래스명.
+- `filenames_image`: 이미지 파일 경로를 저장. 적절하게 이미지가 저장된 파일의 경로를 설정하면 됩니다.
+- `filenames_label`: label의 저장 경로가 저장됩니다. 앞서 이미지와 라벨 정보의 이름을 동일하게 취하게 되면 쉽게 뒤의 파일의 확장자명만 바꿔서 진행할 수 있게 구성했습니다.
+- `classes`: label 정보의 클래스명.
 
 #### 1.4. YAML 파일 생성
 
 디렉터리, 클래스 수 및 클래스 이름을 지정하는 YAML 파일을 생성합니다.
 <br> 추후에 학습 시 yaml 파일을 통해 데이터를 불러들이게 됩니다. 
-- `train`: train 이미지가 담겨있는 directory
-- `val`: valid 이미지가 담겨있는 directory
-- `nc`: number of classes
-- `names`: class의 이름
+  - `train`: train 이미지가 담겨있는 directory
+  - `val`: valid 이미지가 담겨있는 directory
+  - `nc`: number of classes
+  - `names`: class의 이름
 
 #### 1.5. YOLO 학습
 
