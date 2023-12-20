@@ -81,13 +81,7 @@
   <img src="images/businesscard.png" alt="businesscard" display="inline-block" width="60%" height="50%">
 </p>
 
- 
- 아래 표는 데이터셋에 존재하는 label의 갯수입니다.
-</p>
 
-<p align="center">
-  <img src="images/Labeltable.png" alt="Table1: 3 label" width="45%" height="45%">
-</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
